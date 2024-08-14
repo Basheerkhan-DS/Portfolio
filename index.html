@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathan Basheer Khan - Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: url('icons/uriel-sc-11KDtiUWRq4-unsplash.jpg') no-repeat center center;
+            background-size: cover;
+            color: #fff;
+            padding: 20px 0; 
+            min-height: 100px;     position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .header-title {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin: 20px 0;
+        }
+
+        .about-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 2px solid #ddd;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .project-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .project-item {
+            margin: 10px;
+            padding: 10px;
+            width: 300px;
+        }
+
+        .card img {
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .skills-item {
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+        }
+
+        .contact-section {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        .contact-section a {
+            color: #ff69b4;
+            text-decoration: none;
+        }
+
+        .contact-section a:hover {
+            text-decoration: underline;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #ff69b4;
+            padding: 5px;
+        }
+
+        .social-icons img:hover {
+            background-color: #ff1493;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="header-title">Pathan Basheer Khan</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="home">
+        <!-- About Section -->
+        <section id="about">
+            <h2 class="text-center">About Me</h2>
+            <img src="C:\Users\Pathan Basheer Khan\Desktop\Data Science Portfolio\Images\about\1678944259744.jpg" alt="Your Photo" class="about-image">
+            <p class="text-center mt-3">Hello! I’m Pathan Basheer Khan, an IT Professional with a strong passion for Data Science. I am excited about transitioning into the Data Science field, where I can apply my technical expertise and analytical skills to uncover meaningful insights from data.</p>
+            <p class="text-center">I have experience in Python, SQL, and data visualization tools like Power BI and Tableau. I am enthusiastic about learning and implementing machine learning and deep learning techniques to drive innovation and data-driven decision-making. My goal is to leverage data to create impactful solutions in the field of Data Science.</p>                
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2 class="text-center">Projects</h2>
+            <div class="project-list">
+                <div class="card project-item">
+                    <img src="C:\Users\Pathan Basheer Khan\Desktop\Data Science Portfolio\Images\Projects\Screenshot 2024-08-14 140028.png" class="card-img-top" alt="Solar Panel Damage Classification">
+                    <div class="card-body">
+                        <h5 class="card-title">Solar Panel Damage Classification</h5>
+                        <p class="card-text">This internship project involved developing a model for classifying damage in solar panels. Utilizing image processing and machine learning techniques, the project aimed to identify and categorize various types of damage to enhance maintenance and efficiency of solar panels.</p>
+                        <a href="c:\Users\Pathan Basheer Khan\Desktop\Certificates\Solar_certificate.pdf" class="btn btn-primary" target="_blank">View Internship Certificate</a>
+                        <a href="https://github.com/yourusername/solar-panel-damage-classification" class="btn btn-secondary" target="_blank">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2 class="text-center">Skills</h2>
+            <div class="skills-list">
+                <div class="card skills-item">
+                    <img src="C:\Users\Pathan Basheer Khan\Desktop\Data Science Portfolio\Images\Skills\python.png" class="card-img-top" alt="Skill 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Python</h5>
+                        <p class="card-text">This certificate is awarded for completing an advanced Python programming course. It covers key concepts and applications of Python in data science, including libraries such as Pandas and NumPy.</p>
+                        <a href="C:\Users\Pathan Basheer Khan\Desktop\Data Science Portfolio\Certificates\Python Certificate.pdf" class="btn btn-info" target="_blank">View Certificate</a>
+                    </div>
+                </div>
+                <div class="card skills-item">
+                    <img src="C:\Users\Pathan Basheer Khan\Desktop\Data Science Portfolio\Images\Skills\laptop.png" class="card-img-top" alt="Data Visualization Skill">
+                    <div class="card-body">
+                        <h5 class="card-title">Data Visualization</h5>
+                        <p class="card-text">This certificate demonstrates proficiency in data visualization techniques using tools like Power BI. It includes skills in creating interactive and insightful visualizations to communicate data effectively.</p>
+                        <a href="C:\Users\Pathan Basheer Khan\Desktop\Data Science Portfolio\Certificates\Power Bi _Certificate.pdf" class="btn btn-info" target="_blank">View Certificate</a>
+                    </div>
+                </div>
+                <div class="card skills-item">
+                    <img src="C:\Users\Pathan Basheer Khan\Desktop\Data Science Portfolio\Images\Skills\sql.png" class="card-img-top" alt="SQL Skill">
+                    <div class="card-body">
+                         <h5 class="card-title">SQL</h5>
+                         <p class="card-text">This certificate is awarded for mastering SQL, including complex queries, database management, and optimization techniques. It covers fundamental and advanced SQL concepts essential for data manipulation and analysis.</p>
+                         <a href="C:\Users\Pathan Basheer Khan\Desktop\Data Science Portfolio\Certificates\SQL_Certificate.pdf"  class="btn btn-info" target="_blank">View Certificate</a>
+                    </div>
+                </div>
+                <div class="card skills-item">
+                    <img src="C:\Users\Pathan Basheer Khan\Desktop\Data Science Portfolio\Images\Skills\machine-learning.png" class="card-img-top" alt="Data Science and Machine Learning Skill">
+                    <div class="card-body">
+                        <h5 class="card-title">Data Science and Machine Learning</h5>
+                        <p class="card-text">This certificate signifies completion of a comprehensive course in Data Science and Machine Learning. It includes training in predictive modeling, supervised and unsupervised learning, and real-world applications of machine learning algorithms.</p>
+                        <a href="C:\Users\Pathan Basheer Khan\Desktop\Data Science Portfolio\Certificates\final.pdf" class="btn btn-info" target="_blank">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <h2 class="text-center">Contact Me</h2>
+            <div class="text-center">
+                <p>
+                    <img src="C:\Users\Pathan Basheer Khan\Desktop\Data Science Portfolio\icons\mail.png" alt="Email" class="icon" style="width: 30px; height: 30px;">
+                    <a href="mailto:pathabasheerkhan@gmail.com">pathabasheerkhan@gmail.com</a>
+                </p>                
+                <p>
+                    <img src="C:\Users\Pathan Basheer Khan\Desktop\Data Science Portfolio\icons\phone-call.png" alt="Phone" class="icon" style="width: 30px; height: 30px;"> 
+                    +91-7893018615
+                </p>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/pathanbasheer/" target="_blank" title="LinkedIn"><img src="icons/linkedin.png" alt="LinkedIn"></a>
+                <a href="https://github.com/Basheerkhan-DS" target="_blank" title="GitHub"><img src="icons/github.png" alt="GitHub"></a>
+                <a href="https://medium.com/@pathanbasheer123456" target="_blank" title="Medium"><img src="icons/medium.png" alt="Medium"></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
